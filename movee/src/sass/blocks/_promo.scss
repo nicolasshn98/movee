@@ -1,0 +1,101 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	&__logo {
+		font-size: 30px;
+		line-height: 37px;
+		font-weight: 600;
+		color: #333333;
+	}
+	&__link {
+		margin-right: 20px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #333333;
+		text-decoration: none;
+		color: #000;
+		&:nth-child(4) {
+			margin-right: 0;
+		}
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+			 box-shadow: 5px;
+		}
+	}
+	&__phone {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 29px;
+		color: #333333;
+
+	}
+}
+
+.promo {
+	position: relative;
+	padding-top: 40px;
+	height: 650px;
+	background-color: #FED100;
+	&__wrapper {
+		position: absolute;
+		top: 29%;
+		width: 545px;
+		padding-left: 117px;
+	}
+	&__header {
+		font-weight: 700;
+		font-size: 70px;
+		line-height: 100.9%;
+		color: #333333;
+	}
+	&__subheader {
+		font-weight: 600;
+		font-size: 30px;
+		color: #333333;
+	}
+	&__btn {
+		width: 304px;
+		height: 60px;
+		background: #FF352B;
+		border-radius: 20px;
+		margin-top: 35px;
+		transition: all 0.6s;
+		&-text {
+			display: block;
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 29px;
+			color: #F2F2F2;
+			text-decoration: none;
+			text-align: center;
+			padding: 15px 0 15px 0;
+		}
+		&:hover {
+			box-shadow: 0 0 25px rgb(183, 0, 2);
+		}
+	}
+	&__item {
+		margin-top: 45px;
+		display: flex;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+		&-descr {
+			padding-left: 10px;
+			font-size: 16px;
+			line-height: 21px;
+			color: #333333;
+		}
+	}
+
+	&__images {
+		position: absolute;
+		left: 125%;
+    	top: -13.6%;
+	}
+	
+}

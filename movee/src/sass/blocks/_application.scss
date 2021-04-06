@@ -1,0 +1,74 @@
+.application {
+	min-height: 350px;
+	padding: 80px 0 80px 0;
+	&__header {
+		font-weight: 600;
+		font-size: 30px;
+		color: #333333;
+	}
+	&__subheader {
+		margin-top: 10px;
+		font-size: 16px;
+		color: #333333;
+	}
+	&__form {
+		margin-top: 65px;
+		display: flex;
+		input {
+			border: none;
+			border-bottom: 1px solid #333333;
+			margin-right: 70px;
+			width: 250px;
+			height: 50px;
+			outline: none;
+		}
+	}
+	&__btn {
+		position: relative;
+		width: 250px;
+		height: 50px;
+		background-color: #FF352B;
+		border-radius: 20px;
+		&:hover {
+				box-shadow: 0 0 25px #FF352B;
+				transition: 0.6s all;
+			}
+		&-link {
+			display: block;
+			font-weight: 500;
+			font-size: 19px;
+			text-decoration: none;
+			color: #F2F2F2;
+			padding: 13px 31px;
+		}
+		&-border {
+			position: absolute;
+			top: 20%;
+    		left: 7%;
+			width: 240px;
+			height: 50px;
+			border: 1px solid #FED100;
+			border-radius: 20px;
+			z-index: -1;
+		}
+	}
+
+	.check {
+		margin: 23px 0 0 10px;
+		display: flex;
+		align-items: center;
+		width: 300px;
+		input {
+			margin-right: 10px;
+			width: 15px;
+			height: 15px;
+		}
+		span {
+			font-size: 12px;
+			a {
+				color: #333333;
+			}
+		}
+	}
+	
+}

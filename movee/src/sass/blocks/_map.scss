@@ -1,0 +1,46 @@
+.map {
+	position: relative;
+	height: 665px;
+	&__info {
+		position: relative;
+		padding: 30px 25px;
+		width: 300px;
+    	height: 270px;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 2%;
+		right: 1%;
+	}
+	&__logo {
+		font-weight: 600;
+		font-size: 30px;
+		color: #333333;
+	}
+	&__descr {
+		margin-top: 40px;
+		&-item {
+			margin-bottom: 20px;
+			font-size: 15px;
+			color: #333333;
+			a {
+				text-decoration: none;
+				color: #333333;
+			}
+			img {
+				margin-right: 15px;
+				height: 18px;
+				width: 18px;
+			}
+		}
+	}
+	&__social {
+		position: absolute;
+		top: 87%;
+		left: 55%;
+		img {
+			margin-right: 15px;
+			height: 20px;
+			width: 20px;
+		}
+	}
+}

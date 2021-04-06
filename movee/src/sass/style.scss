@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1415px;
+	margin: 0 auto;
+}
+.container_w1300 {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/ourwork";
+@import "blocks/price";
+@import "blocks/carprak";
+@import "blocks/reviews";
+@import "blocks/application";
+@import "blocks/map";
+@import "blocks/footer";
